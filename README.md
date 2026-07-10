@@ -310,14 +310,6 @@ curl http://146.56.133.225:3000/api/health
 curl http://146.56.133.225:3000/api/risk
 ```
 
-API 키 없이 파이프라인 구조만 테스트하려면 다음 명령을 사용할 수 있다.
-
-```bash
-python3 scripts/collect.py --sample
-```
-
-단, 과제 제출 결과는 sample 모드가 아니라 실제 공공 API 수집 결과를 기준으로 한다.
-
 ### Step 7. cron 자동화 등록
 
 ```bash
