@@ -620,5 +620,3 @@ sangkwon-radar/
 | Chart.js | CDN 최신 버전 | 웹 차트 시각화 | MIT |
 | OCI CLI | 3.83.0 | Object Storage 관리 | UPL / Apache 2.0 |
 
-Python 3.6.8 환경 제약으로 위 라이브러리는 해당 버전과 호환되는 버전으로 고정했다.  
-대시보드 UI 초안은 Claude Design을 활용해 프로토타이핑했으며, 최종 HTML/CSS/JavaScript는 프로젝트 구조에 맞게 수정하여 Flask 정적 파일로 통합했다.
