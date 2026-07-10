@@ -1,0 +1,16 @@
+# 실제 API 키/DB 비밀번호가 들어있는 파일 - 절대 커밋하지 않음
+.env
+
+# 수집된 원본 데이터 (용량 크고, git으로 관리할 데이터가 아님)
+raw_data/
+
+# 로그
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store

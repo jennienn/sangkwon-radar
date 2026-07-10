@@ -1,0 +1,7 @@
+# 주의: 이 VM(Oracle Linux 8)의 기본 python3는 3.6.8로 고정되어 있어
+# 최신 버전 라이브러리가 설치되지 않는다 (oracledb 2.x/flask 3.x/requests 2.31+는 Python 3.7+ 필요).
+# 아래는 Python 3.6.8에서 실제로 동작 확인된 버전이다.
+oracledb==1.4.2
+flask==2.0.3
+requests==2.27.1
+python-dotenv==0.20.0
